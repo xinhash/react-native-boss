@@ -1,5 +1,1 @@
-import {AppRegistry} from 'react-native';
-import App from './src';
-
-AppRegistry.registerComponent('boss', () => App);
-
+import App from "./App";
