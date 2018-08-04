@@ -1,0 +1,30 @@
+{
+  "name": "boss",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "run-android": "cd ./android && ./gradlew app:assembleDebug && ./gradlew installDebug"
+  },
+  "dependencies": {
+    "react": "16.4.1",
+    "react-native": "0.56.0",
+    "react-native-navigation": "^2.0.2454",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "babel-jest": "22.4.3",
+    "babel-preset-react-native": "5.0.2",
+    "jest": "22.4.3",
+    "react-test-renderer": "16.3.1",
+    "redux-devtools-extension": "^2.13.2",
+    "redux-immutable-state-invariant": "^2.1.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
